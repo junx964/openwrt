@@ -39,11 +39,11 @@
    ./scripts/feeds install -a
    ```
 
-5.  更新主题argon为jerrykuku的argon
+5. 更新主题argon为jerrykuku的argon主题
 
    ```bash
    rm -rf feeds/luci/themes/luci-theme-argon
-   git clone https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes
+   git clone https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/
    ```
 
 6. 添加固件需要功能
