@@ -28,7 +28,7 @@
 3. 下载源代码，
 
    ```bash
-   git clone https://github.com/coolsnowwolf/lede
+   git clone git@github.com:junx964/openwrt.git
    ```
 
 4. 更新 feeds 并选择配置
@@ -45,6 +45,7 @@
    rm -rf feeds/luci/themes/luci-theme-argon
    git clone https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes
    ```
+
 6. 添加固件需要功能
 
    ```bash
